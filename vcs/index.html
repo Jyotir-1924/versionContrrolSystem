@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>git-assignment</title>
+</head>
+
+<body>
+    <div style="width: 1150px; margin: auto;">
+        <img src="/vcs/logo-for-git-and-github-338518064.png" alt="" height="250px" style="display: block; margin: 0 auto; border-radius: 50%;">
+        <h1 style="text-align: center; text-decoration: 4px underline;">
+            Git commands cheat sheat
+        </h1>
+        <br>
+        <ul style="font-size: 20px; text-align: justify;">
+            <li><b>git -version</b> : It provides us with the correct version of git installed in our systems. If not
+                installed, it will give an error.</li>
+            <br>
+            <li><b>git init</b> : This command will intialize an empty repository inside the current working directory
+                in our system.</li>
+            <br>
+            <li><b>git status</b> : status command provides us the current status of the files in the working directory
+                if the files are ready to be staged or not.</li>
+            <br>
+            <li><b>git add file_name</b> : add commands stages the selected file that has to be commited into the
+                working directory. To stage all the files at once, use <b>' git add '.</b>.</li>
+            <br>
+            <li><b>git commit -m 'message'</b> : this command is used to commit or basically, register the staged files
+                into the working directory. It logs all the staged files.</li>
+            <br>
+            <li><b>git log</b> : log provides all the commit history along with the commit hashcode which helps us to
+                get back to previous versions.</li>
+            <br>
+            <li><b>git reset</b> : reset command is used to go back to the previous versions of the code along with the
+                hashcode provided in the log command. It is combined with the line arguments : <i><b>--hard</b></i>: to
+                reset the code along with the version & <i><b>--soft</b></i>: to simple go back to previous version
+                without resetting the code.</li>
+            <br>
+            <li><b>git remote add origin <i>link</i></b> : this command is used to attach/connect to an existing github
+                repository where all the nescessary files and folders can be uploaded and projects can be hosted.
+                <i>'link' refers to the github repository link.</i></li>
+            <br>
+            <li><b>git branch -m main</b> : this command logs onto the main branch in the working directory.</li>
+            <br>
+            <li><b>git branch</b> : branch command breifs about the active branches present in the working directory.
+            </li>
+            <br>
+            <li><b>git branch branch_name</b> : creates a new branch into the working directory.</li>
+            <br>
+            <li><b>git checkout branch_name</b> : used to navigate between the active branches present in the working
+                directory.</li>
+            <br>
+            <li><b>git merge branch_name</b> : this command merges the specified branch with the main branch.</li>
+            <br>
+            <li><b>git push -u origin main</b> : this command pushes the staged files to the main branch of the linked
+                github repository.</li>
+            <br>
+            <li><b>git push</b> : pushes the staged files and updates the main branch of the linked github repository.
+            </li>
+            <br>
+            <li><b>git pull</b> : this command extracts all the files present onto the repository in github.</li>
+            <br>
+            <li><b>git pull</b> : this command extracts all the files present onto the repository in github.</li>
+            <br>
+            <li><b>git clone</b> : clone command can be used to create a copy of an existing git repository.</li>
+        </ul>
+    </div>
+</body>
+
+</html>
